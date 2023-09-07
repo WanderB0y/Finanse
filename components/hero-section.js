@@ -1,6 +1,7 @@
 import React from 'react'
 import heroPicture from 'public/images/natalia.jpg'
 import Image from 'next/image'
+import '@/styles/globals.css'
 
 
 const heroSection = () => {
