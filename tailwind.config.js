@@ -25,8 +25,15 @@ module.exports = {
             secondary:'Plus Jakarta Sans'
         },
         animation: {
-          'spin-slow':'spin 30s linear infinite'
-        }
+          'spin-slow':'spin 30s linear infinite',
+          'infinite-scroll': 'infinite-scroll 35s linear infinite'
+        },
+         keyframes: {
+          'infinite-scroll': {
+            from: { transform: 'translateX(0)' },
+            to: { transform: 'translateX(-100%)' },
+          }
+      }
     },
   },
   plugins: [],
