@@ -24,6 +24,9 @@ module.exports = {
             primary: 'Satoshi',
             secondary:'Plus Jakarta Sans'
         },
+        animation: {
+          'spin-slow':'spin 30s linear infinite'
+        }
     },
   },
   plugins: [],

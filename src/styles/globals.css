@@ -10,10 +10,10 @@
         @apply bg-light-100 font-primary
     }
     p{
-        @apply text-2xl
+        @apply  text-xl lg:text-2xl break-words
     }
     h1{
-        @apply text-7xl font-bold
+        @apply  text-5xl lg:text-7xl font-bold
     }
 }
 
