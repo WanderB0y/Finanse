@@ -16,7 +16,7 @@ const heroSection = () => {
     <section className='container-responsive py-32 relative'>
         <div className='grid gap-10 z-30 relative'>
             <div>
-                <h1 className=' mb-6 max-w-[500px] lg:max-w-[820px] xl:max-w-[900px] break-words'> Manage your financial planning properly </h1>
+                <h1 className='mb-6 max-w-[500px] lg:max-w-[820px] xl:max-w-[900px] break-words'> Manage your financial planning properly </h1>
                 <p className='leading-9 max-w-[440px] xl:max-w-[625px]'>
                     We will help you to setup plan your financial 
                     things computerize. And it’s free!

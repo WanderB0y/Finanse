@@ -13,7 +13,7 @@ const Header = () => {
     />
     <div className='w-full h-full hidden xl:inline-flex flex-grow font-secondary'>
         <nav>
-            <ul className='flex gap-10 hover:[&>*]:font-bold [&>*]:shrink-0 [&>*]:h-full'>
+            <ul className='flex gap-10 hover:[&>*]:font-bold [&>*]:shrink-0 [&>*]:h-full [&>*]:duration-300'>
                 <li className='w-12'>
                     <Link href='/'>
                         Home

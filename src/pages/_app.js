@@ -12,7 +12,6 @@ export default function App({ Component, pageProps }) {
         <link rel='icon' type='iamge/x-icon' href='icons/union.svg'></link>
       </Head>
       <Header/>
-      
       <Component {...pageProps} /> 
       <Footer/>
       </>)
