@@ -10,9 +10,9 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Finanse</title>
         <link rel='icon' type='iamge/x-icon' href='icons/union.svg'></link>
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
       </Head>
       <Header/>
       <Component {...pageProps} /> 
-      <Footer/>
       </>)
 }

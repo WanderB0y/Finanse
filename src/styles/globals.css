@@ -10,10 +10,10 @@
         @apply bg-light-100 font-primary
     }
     p{
-        @apply  text-xl lg:text-2xl break-words opacity-80
+        @apply  text-base ms:text-xl lg:text-2xl break-words opacity-80
     }
     h1{
-        @apply  text-5xl lg:text-7xl font-bold
+        @apply  text-3xl ms:text-5xl lg:text-7xl font-bold
     }
     h3{
         @apply font-bold mb-5

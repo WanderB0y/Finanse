@@ -14,9 +14,10 @@ const index = () => {
             <HeroSection/>
             <MeetingSection/>   
             <DiversificationSection/>
-            <MonitorSection/>
+            
+            {/* <MonitorSection/>
             <TestimonialsSection/>
-            <section></section>
+            <section></section> */}
         </main>
         <footer>
             

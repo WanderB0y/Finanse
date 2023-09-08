@@ -6,18 +6,18 @@ import Image from 'next/image'
 const heroSection = () => {
 
     const profileImage = [
-        { src:'profiles/profile-one.svg', width: 60, height: 60, className: "z-30" },
-        { src:'profiles/profile-two.svg', width: 60, height: 60, className: "absolute z-20 left-10" },
-        { src:'profiles/profile-three.svg', width: 60, height: 60, className:"absolute z-10 left-20" }
+        { src:'profiles/profile-one.svg', className: "z-30 ms:w-[60px] w-[40px]" },
+        { src:'profiles/profile-two.svg', className: "absolute z-20 left-6 ms:left-10 ms:w-[60px] w-[40px]" },
+        { src:'profiles/profile-three.svg', className:"absolute z-10 left-12 ms:left-20 ms:w-[60px] w-[40px]" }
     ]
 
 
   return (
     <section className='container-responsive py-32 relative'>
-        <div className='grid gap-10 z-30 relative'>
+        <div className='grid gap-6 ms:gap-10 z-30 relative'>
             <div>
-                <h1 className='mb-6 max-w-[500px] lg:max-w-[820px] xl:max-w-[900px] break-words'> Manage your financial planning properly </h1>
-                <p className='leading-9 max-w-[440px] xl:max-w-[625px]'>
+                <h1 className='mb-6 max-w-[290px] ms:max-w-[500px] lg:max-w-[820px] xl:max-w-[900px] break-words'> Manage your financial planning properly </h1>
+                <p className='leading-9 w-[300px] ms:w-[440px] xl:w-[625px]'>
                     We will help you to setup plan your financial 
                     things computerize. And it’s free!
                 </p> 
@@ -26,10 +26,10 @@ const heroSection = () => {
             <div className='flex items-center'>
                 <div className='flex relative'>
                   {profileImage.map((profile, index) => (
-                    <Image key={index} src={profile.src} width={profile.width} height={profile.height} alt='profiles' className={profile.className}/>
+                    <Image key={index} src={profile.src} width={60} height={60} alt='profiles' className={profile.className}/>
                   ))}
                 </div>
-                <span className='lg:text-2xl ml-24 text-xl'>824 companies joined us!</span>
+                <span className='lg:text-2xl ml-14 ms:ml-24 text-base'>824 companies joined us!</span>
             </div>
 
             <button className='btn-primary'>
@@ -48,7 +48,7 @@ const heroSection = () => {
                 width={134}
                 height={134}
                 alt='union'
-                className='absolute z-40 animate-spin-slow bottom-7 xl:-left-72 shrink-0 lg:-left-48 sm:-left-40 -left-40 min-w-[130px]'
+                className='absolute z-40 animate-spin-slow -bottom-2 ms:bottom-7 xl:-left-72 shrink-0 lg:-left-48 sm:-left-40 ms:-left-40 -left-36 min-w-[130px]'
             
             />
         </div>
