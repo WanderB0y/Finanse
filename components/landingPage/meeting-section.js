@@ -17,6 +17,7 @@ const meetingSection= () => {
                         src='company-icons/altrium.svg'
                         width={142}
                         height={149}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -25,6 +26,7 @@ const meetingSection= () => {
                         src='company-icons/climo.svg'
                         width={171}
                         height={40}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -32,6 +34,7 @@ const meetingSection= () => {
                         src='company-icons/granded.svg'
                         width={152}
                         height={40}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -39,6 +42,7 @@ const meetingSection= () => {
                         src='company-icons/kaligo.svg'
                         width={120}
                         height={45}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -46,6 +50,7 @@ const meetingSection= () => {
                         src='company-icons/menuine.svg'
                         width={107}
                         height={49}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -53,6 +58,7 @@ const meetingSection= () => {
                         src='company-icons/mountrain.svg'
                         width={111}
                         height={47}
+                        alt='logo'
                     />
                 </li>
             </ul>
@@ -62,6 +68,7 @@ const meetingSection= () => {
                         src='company-icons/altrium.svg'
                         width={142}
                         height={149}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -70,6 +77,7 @@ const meetingSection= () => {
                         src='company-icons/climo.svg'
                         width={171}
                         height={40}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -77,6 +85,7 @@ const meetingSection= () => {
                         src='company-icons/granded.svg'
                         width={152}
                         height={40}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -84,6 +93,7 @@ const meetingSection= () => {
                         src='company-icons/kaligo.svg'
                         width={120}
                         height={45}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -91,6 +101,7 @@ const meetingSection= () => {
                         src='company-icons/menuine.svg'
                         width={107}
                         height={49}
+                        alt='logo'
                     />
                 </li>
                 <li>
@@ -98,6 +109,7 @@ const meetingSection= () => {
                         src='company-icons/mountrain.svg'
                         width={111}
                         height={47}
+                        alt='logo'
                     />
                 </li>
             </ul>

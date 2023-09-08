@@ -58,6 +58,7 @@ const testimonials = () => {
                                     src='icons/next.svg'
                                     width={28}
                                     height={9.8}
+                                    alt=''
                                 />
                             </div>
                         </div>

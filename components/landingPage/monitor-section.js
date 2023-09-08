@@ -31,7 +31,7 @@ const monitorSection = () => {
         </div>
         <div>
             <h1 className='lg:w-[625px] w-[300px] break-words'>Monitor all assets and transactions in one dashboard.</h1>
-            <p className='mt-6 w-[685px] break-words'>From Socrates to Steve Jobs, many of history's greatest thinkers had their best ideas while walking.</p>
+            <p className='mt-6 w-[685px] break-words'>From Socrates to Steve Jobs, many of history&apos;s greatest thinkers had their best ideas while walking.</p>
             <button className='btn-primary mt-16'> Get Early Access</button>
         </div>  
     </section>

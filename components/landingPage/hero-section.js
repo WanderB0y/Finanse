@@ -26,7 +26,7 @@ const heroSection = () => {
             <div className='flex items-center'>
                 <div className='flex relative'>
                   {profileImage.map((profile, index) => (
-                    <Image key={index} src={profile.src} width={profile.width} height={profile.height} className={profile.className}/>
+                    <Image key={index} src={profile.src} width={profile.width} height={profile.height} alt='profiles' className={profile.className}/>
                   ))}
                 </div>
                 <span className='lg:text-2xl ml-24 text-xl'>824 companies joined us!</span>
@@ -47,6 +47,7 @@ const heroSection = () => {
                 src='icons/union.svg'
                 width={134}
                 height={134}
+                alt='union'
                 className='absolute z-40 animate-spin-slow bottom-7 xl:-left-72 shrink-0 lg:-left-48 sm:-left-40 -left-40 min-w-[130px]'
             
             />

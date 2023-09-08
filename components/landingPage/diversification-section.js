@@ -29,17 +29,18 @@ const diversificationSection = () => {
             />
             
         </div>
-        <Image
-                src='icons/moon.svg'
-                width={82}
-                height={82}
-                alt="Natatae Ako"
-                className='absolute right-24 bottom-24 animate-bounce-slow'
+            <Image
+                    src='icons/moon.svg'
+                    width={82}
+                    height={82}
+                    alt="Natatae Ako"
+                    className='absolute right-24 bottom-24 animate-bounce-slow'
             />
-                    <Image
+            <Image
                 src='icons/union.svg'
                 width={134}
                 height={134}
+                alt='union'
                 className='absolute animate-spin-slow top-24 left-5'
             
             />
