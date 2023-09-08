@@ -33,7 +33,7 @@ const testimonials = () => {
         <div className='max-w-[846px]'>
             <h1 className='text-center'>Choose and create your dream now.</h1>
             <p className='text-center mt-6'>
-                From Socrates to Steve Jobs, many of history's greatest thinkers had their best ideas while walking.
+                From Socrates to Steve Jobs, many of history&apos;s greatest thinkers had their best ideas while walking.
             </p>
         </div>
         <div className='mt-16 flex gap-5'>
