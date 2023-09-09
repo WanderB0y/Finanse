@@ -15,7 +15,8 @@ const index = () => {
             <MeetingSection/>   
             <DiversificationSection/>
             
-            {/* <MonitorSection/>
+            <MonitorSection/>
+            {/* 
             <TestimonialsSection/>
             <section></section> */}
         </main>
