@@ -16,14 +16,17 @@ const index = () => {
             <DiversificationSection/>
             
             <MonitorSection/>
-            {/* 
+           
             <TestimonialsSection/>
+             {/* 
             <section></section> */}
         </main>
         <footer>
             
         </footer>
+            <script>
 
+            </script>
     </div>
   )
 }
